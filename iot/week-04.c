@@ -1,14 +1,14 @@
-void setup() {//LED_BUILTIN
-  pinMode(13, OUTPUT);
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
   Serial.begin(9600);
 }
 
 void ledOn() {
-  digitalWrite(13, HIGH);
+  digitalWrite(LED_BUILTIN, HIGH);
 }
 
 void ledOff() {
-  digitalWrite(13, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
 }
 
 void loop() {
